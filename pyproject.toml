@@ -1,0 +1,16 @@
+[project]
+name = "hands-on-data-assimilation-and-neural-hybrid-correctors-in-jax"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chaotax>=0.0.1",
+    "exponax>=0.2.0",
+    "hax>=0.3.0",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.10.9",
+    "optax>=0.2.8",
+    "pdequinox>=0.1.2",
+    "trainax>=0.0.2",
+]
