@@ -1,12 +1,42 @@
 # Hybridization in JAX with AD
 
+I was invited to give a lecture and practical sessions at the [Workshop on
+Machine Learning and Automatic Differentiation in `JAX` for Scientific Computing
+](https://majsc2026.pages.math.unistra.fr/) hosted by the University of
+Strasbourg in June 2026. For this, I presented a lecture on hybridization (i.e.,
+how to marry neural networks and numerical solvers) as well as a practical
+session on using the [Exponax](https://fkoehler.site/exponax/) solver suite in
+JAX for solving PDEs (concretely the Kolmogorov Flow), data assimilation,
+inverse problems, and to build neural-hybrid correctors leading to a simplified
+reproduction of the influential [ML-accelerated CFD paper by Kochkov et al.](https://www.pnas.org/doi/10.1073/pnas.2101784118). Thank you for having me!
+
+## Recordings
+
+Recording of the lecture:
+
+[![Link to the lecture recording](https://img.youtube.com/vi/carwzAOfuPE/0.jpg)](https://www.youtube.com/watch?v=carwzAOfuPE)
+
+Recording of the "zeroth" practical session on getting started with Exponax by solving the 2D Navier-Stokes Kolmogorov Flow:
+
+[![Link to the "zeroth" practical session recording](https://img.youtube.com/vi/I7ilrh6tbVc/0.jpg)](https://www.youtube.com/watch?v=I7ilrh6tbVc)
+
+Recording of the first practical session on data assimilation and inverse problems:
+
+[![Link to the first practical session recording](https://img.youtube.com/vi/Tb3n52Ka4GM/0.jpg)](https://www.youtube.com/watch?v=Tb3n52Ka4GM)
+
+Recording of the second practical session on building neural-hybrid correctors:
+
+[![Link to the second practical session recording](https://img.youtube.com/vi/g1guv-fkIrQ/0.jpg)](https://www.youtube.com/watch?v=g1guv-fkIrQ)
+
+## Material Overview
+
 This repository contains all my material for the lecture and practical session I gave at the [ML & AD in JAX](https://majsc2026.pages.math.unistra.fr/index.html) workshop at the University of Strasbourg in June 2026.
 
 In the notebooks, the videos have been removed to save space.
 
 See also [this Hugging Face repo](https://huggingface.co/datasets/ceyron/jax-ad-workshop), which contains the datasets for the second exercise.
 
-## Getting Started
+### Getting Started
 
 0. Install the [Colab Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=Google.colab) and register with your Google account.
 1. `cd` into your preferred directory and then clone the repository `git clone https://github.com/Ceyron/hybridization-in-jax.git`
